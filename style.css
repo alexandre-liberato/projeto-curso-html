@@ -1,0 +1,89 @@
+body {
+    background: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: mediumblue
+}
+
+.photo {
+    width: 25%;
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+.post {
+    background: #FFF;
+    padding: 10px;
+    border: 3px solid #505050;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.post_title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.post_image {
+    margin-bottom: 15px;
+    height: 350px;
+    width: 100%;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.footer {
+    background: #FFF;
+    padding: 10px;
+    border: 3px solid #505050;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.footer_title {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.email {
+    list-style-type: "\1F4E7";
+    padding-left: 15px;
+}
+
+.linkedin {
+    list-style-type: "\1F4D8";
+    padding-left: 15px;
+}
+
+.github {
+    list-style-type: "\1F419";
+    padding-left: 15px;
+}
